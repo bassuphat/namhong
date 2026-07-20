@@ -1,0 +1,8 @@
+# NAMHONG GROUP — backend hardening
+# ป้องกันการเข้าถึงไฟล์ config.php โดยตรงผ่านเบราว์เซอร์ (กันไว้อีกชั้น)
+<Files "config.php">
+  Require all denied
+</Files>
+
+# ปิดการแสดงรายชื่อไฟล์ในโฟลเดอร์ (เผื่อไม่มี index)
+Options -Indexes
