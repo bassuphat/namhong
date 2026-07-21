@@ -1,5 +1,0 @@
-# TODO: replace namhonggroup.co.th with the real registered domain
-User-agent: *
-Allow: /
-
-Sitemap: https://www.namhonggroup.co.th/sitemap.xml
